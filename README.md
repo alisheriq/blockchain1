@@ -12,7 +12,8 @@ IntelliJ IDEA
 ## Explanation of the Assignment 1
 
 ---
--Class: SecureTransaction
+<details>
+<summary>-Class: SecureTransaction</summary>
 
 The SecureTransaction class provides essential cryptographic functionality for secure transactions, including key generation, encryption, signature creation and verification, decryption, and blockchain management.
 
@@ -46,7 +47,7 @@ Displays the entire blockchain by iterating through each block and printing its 
 
 8)hashMessage(BigInteger data) throws NoSuchAlgorithmException -> String
 Hashes the provided BigInteger data using the SHA-256 algorithm and returns the hexadecimal representation of the hash.
----
+</details>
 -Class: Block
 
 The Block class represents a block in the blockchain, containing a list of transactions, the hash of the previous block, and its own hash. 
