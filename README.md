@@ -48,7 +48,8 @@ Displays the entire blockchain by iterating through each block and printing its 
 8)hashMessage(BigInteger data) throws NoSuchAlgorithmException -> String
 Hashes the provided BigInteger data using the SHA-256 algorithm and returns the hexadecimal representation of the hash.
 </details>
--Class: Block
+<details>
+<summary>-Class: Block</summary>
 
 The Block class represents a block in the blockchain, containing a list of transactions, the hash of the previous block, and its own hash. 
 
@@ -69,9 +70,9 @@ Returns the hash of the current block.
 
 3)toString() -> String
 Provides a string representation of the block, including details about its transactions, previous hash, and current hash.
-
----
--Class: Transaction
+</details>
+<details>
+<summary>-Class: Transaction</summary>
 
 The Transaction class represents a single transaction within the secure transaction system. It encapsulates the sender's original message, the encrypted message for secure transmission, and the digital signature.
 
@@ -87,10 +88,9 @@ Returns the original sender message.
 
 2)toString() -> String
 Provides a string representation of the transaction, including details about the sender message, encrypted message, and signature.
-
----
-
--Class: MerkleTree
+</details>
+<details>
+<summary>-Class: MerkleTree</summary>
 
 The MerkleTree class represents a Merkle tree used to create a tamper-proof structure of transaction hashes. The tree is built iteratively by combining adjacent hashes until a single root hash is obtained.
 
@@ -107,5 +107,4 @@ Returns the root hash of the Merkle tree.
 
 2)calculateHash(String data) -> String
 Calculates the SHA-256 hash of the given data and returns the hexadecimal representation.
-
-
+</details>
