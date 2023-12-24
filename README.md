@@ -4,7 +4,7 @@
 ---
 
 ## Tasks from
-- [Assignment 1]([https://moodle.astanait.edu.kz/mod/assign/view.php?id=106863])
+- [Assignment 1](https://moodle.astanait.edu.kz/mod/assign/view.php?id=106863)
 
 ## Build
 IntelliJ IDEA
